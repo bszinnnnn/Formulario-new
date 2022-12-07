@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+</head>
+<script>
+    function alerta1() {
+        alert("Erro1  :)");
+    }
+    function alerta2() {
+        alert("Não foi possível realizar essa ação, tente novamente mais tarde!");
+    }
+</script>
+<body>
+    <header>
+        <a href=""><img src="imagens/casa.png" alt="" class="top17"></a>
+        <p class="top22"><a href="" class="awa">Ajuda</a></p>
+        <p class="top22"><a href="" class="awa">Informação</a></p>
+        <p class="top22"><a href="" class="awa">Preços</a></p>
+    </header>
+    <section> 
+        <div class="wrapper">
+            <h1 class="letra">Login</h1>
+            <hr id="batman">
+            <div class="container">   
+                <label class="text01">E-mail  </label>   
+                <input type="text" placeholder="Insira o e-mail" name="username" required>  
+                <label class="text01">Senha  </label>   
+                <input type="password" placeholder="Insira a Senha" name="password" required>
+                <div class="Esqueceu a senha">
+                     <span class="letrinha17"> <a href="#" onclick="alerta2()" class="letrinhaLink"> Esqueceu a senha? </a></span>
+                </div>
+                <div class="centro"> 
+                    <div class="botao">
+                        <a href=""><button id="button-start" class="btn third aqui">Cadastrar-se</button></a>
+                    </div>                                            
+                        <button id="button-stop" class="btn third aqui2 aqui1" onclick="alerta1()">Login
+                        </button> 
+                    <div class="checkbx"><input type="checkbox" checked="checked" class="aqui"> 
+                        <span class="aqui letrinha17">Lembrar senha</span>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        
+    </section>
+    
+</body>
+</html>
